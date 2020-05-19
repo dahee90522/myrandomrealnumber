@@ -24,7 +24,7 @@ namespace myrandomrealnumber
                     Console.WriteLine("정답입니다!");
                     break;
                 }
-
+                 
                 if (mynum < num) { Console.WriteLine(mynum + "보다는 큰 숫자입니다."); }
                 else if (mynum > num) { Console.WriteLine(mynum + "보다는 작은 숫자입니다."); }
                 else { Console.WriteLine("잘못입력하셨습니다."); }
